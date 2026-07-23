@@ -1,8 +1,27 @@
 aid: amca
 name: Amca
-description: Amca is a company surfaced as a portfolio company of lightspeed-venture-partners, lux-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Amca (Advanced Manufacturing Company of America) is an El Segundo, California aerospace
+  and defense manufacturer rebuilding America's industrial base by acquiring specialized component
+  suppliers and expanding competition and capacity for critical parts — actuators, switches, hydraulics,
+  pressure sensors, power electronics, and flight-control electronics. Founded in 2024 by Eli Giovanetti
+  and Jai Malik, Amca combines design, testing, and production into a single RAPID platform across a
+  network of AS9100D-certified factories (Electro-Mech Components, Electrocube, Aerospace Control
+  Products, Payne Magnetics, Cal-Draulics, BC Power Systems), and serves nearly every major aerospace
+  and defense prime and Tier 1 supplier — Boeing, Lockheed Martin, Airbus, GE Aerospace, Honeywell,
+  Textron, BAE Systems, and the Defense Logistics Agency. It is a hardware manufacturing company with
+  no public developer API surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/c7u6qwkj/production/e94ff8e49e2ea82b59206cd77bbed960c3a345a1-1200x630.png
 url: https://raw.githubusercontent.com/api-evangelist/amca/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,9 +35,36 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Aerospace
+- Defense
+- Manufacturing
+- Advanced Manufacturing
+- Hardware
+- Components
+- Supply Chain
 apis: []
+common:
+- type: DomainSecurity
+  url: security/amca-domain-security.yml
+- type: Website
+  url: https://www.amca.com/
+- type: AboutUs
+  url: https://www.amca.com/who-we-are
+- type: Catalog
+  url: https://www.amca.com/our-products
+- type: Careers
+  url: https://www.amca.com/careers
+- type: Support
+  url: https://www.amca.com/inquiries
+- type: LinkedIn
+  url: https://www.linkedin.com/company/amcainc
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
