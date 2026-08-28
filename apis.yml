@@ -10,6 +10,17 @@ description: Amca (Advanced Manufacturing Company of America) is an El Segundo, 
   and defense prime and Tier 1 supplier — Boeing, Lockheed Martin, Airbus, GE Aerospace, Honeywell,
   Textron, BAE Systems, and the Defense Logistics Agency. It is a hardware manufacturing company with
   no public developer API surface.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
