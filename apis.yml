@@ -55,6 +55,14 @@ tags:
 - Supply Chain
 apis: []
 common:
+- type: About
+  url: https://www.amca.com/who-we-are
+- type: Solutions
+  url: https://www.amca.com/our-products
+- type: PrivacyPolicy
+  url: https://www.amca.com/terms-of-use
+- type: LLMsTxt
+  url: llms/amca-llms.txt
 - type: DomainSecurity
   url: security/amca-domain-security.yml
 - type: Website

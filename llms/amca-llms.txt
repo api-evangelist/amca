@@ -1,0 +1,33 @@
+# Advanced Manufacturing Company of America (Amca)
+
+> Amca is an El Segundo, California aerospace and defense manufacturer founded in 2024. It designs
+> and builds physical flight hardware — human-machine interface and cockpit switch panels, avionics
+> and flight-control electronics, hydraulic actuation, and power electronics — for platforms
+> including the F-35 and commercial widebody and narrowbody aircraft.
+
+## API surface
+
+Amca publishes **no public API**. As of 2026-09-07 there is no developer portal, no API reference,
+no OpenAPI/AsyncAPI/GraphQL/gRPC/WSDL contract, no MCP server, and no A2A agent card. There are no
+`api.`, `docs.`, `developer.`, `app.` or `portal.` subdomains in DNS for amca.com, and every
+`/.well-known/` path returns 404. The company's RAPID platform is an internal design-to-production
+workflow, not a customer-facing developer product. Do not attempt to call an Amca API; there is
+none to call.
+
+Note: amca.com is a Next.js site whose catch-all returns HTTP 200 with an HTML shell for unknown
+top-level paths (e.g. /openapi.json, /docs, /graphql). Those are soft-404s, not documents.
+
+## Company
+
+- [Amca home](https://www.amca.com/): America's new industrial base.
+- [Who we are](https://www.amca.com/who-we-are): founders, history, and the acquisition strategy.
+- [Our products](https://www.amca.com/our-products): avionics, hydraulics, electrical systems and power electronics product lines.
+- [Product catalog](https://www.amca.com/catalog): switch and component series (Series 20, 400, 500, S520, 600/800, 2100, 2600, 3000, 644-2100, SW44109, SW44175, SW44267, SW44418).
+- [Careers](https://www.amca.com/careers): open roles.
+- [Privacy policy](https://www.amca.com/terms-of-use): served at the /terms-of-use path.
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/advanced-manufacturing-company-of-america/refs/heads/main/apis.yml): the machine-readable profile of this company.
+- Domain security probe: `security/advanced-manufacturing-company-of-america-domain-security.yml`
+- Well-known probe: `well-known/advanced-manufacturing-company-of-america-well-known.yml`
